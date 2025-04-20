@@ -107,7 +107,9 @@
 }
 .img_slider {
 	width: 100% !important;
-	height: auto !important
+	height: auto !important;
+	max-width: 100%;
+	
 }
 
 /*button*/
@@ -187,7 +189,7 @@
 /*-------------------------------------------------------------------------------------------*/
 .fact-counter-wrapper {
 	position: relative;
-	background: url(../images/slider2.jpg) no-repeat;
+	background: url(../images/https2.jpg) no-repeat;
 	background-size: cover;
 	width: 100%;
 	background-attachment: fixed;
