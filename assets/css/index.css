@@ -3,7 +3,7 @@
 /*-------------------------------------------------------------------------------------------*/
 .main-banner {
 	position: relative;
-	margin-top: 106px;
+	margin-top: 90px;
 	overflow: hidden;
 }
 .main-banner .banner-text span {
@@ -108,9 +108,33 @@
 .img_slider {
 	width: 100% !important;
 	height: auto !important;
-	max-width: 100%;
+	min-height: auto;
+	
 	
 }
+
+@media (max-width: 420px) {
+	.main-banner .rev-slider {
+	  flex-direction: column;
+	}
+  
+	.main-banner .rev-slider .rev-slidebg {
+	  justify-content: flex-start;
+	  margin-bottom: 15px;
+	}
+  }
+  
+  @media (max-width: 376px) {
+	.img_slider {
+		width: 100% !important;
+		height: auto !important;
+		min-height: auto;
+		
+		
+	}
+
+
+  }
 
 /*button*/
 .btn {

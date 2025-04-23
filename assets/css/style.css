@@ -1357,7 +1357,7 @@ form label.error {
 	text-align: left;
 }
 .bg-img {
-	background: url(../images/bg_71.jpg) 0 58% no-repeat;
+	background: url(../images/Community1.jpg) 0 58% no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -1410,9 +1410,9 @@ form label.error {
 	display: block;
 	border: 1px solid #ffa500;
 	color: #ffa500;
-	height: 36px;
+	height: 20px;
 	width: 36px;
-	line-height: 34px;
+	line-height: 20px;
 	text-align: center;
 	font-size: 14px;
 }
@@ -1489,7 +1489,7 @@ form label.error {
 }
 .sidebar-widget ul li a {
 	display: inline-block;
-	font-size: 13px;
+	font-size: 10px;
 	cursor: pointer;
 }
 .sidebar-widget .categories li a {
